@@ -6,3 +6,7 @@ del array.
 Cada tarea es una funcion. Cuando la tarea se completa la tarea hace una llamada a la función handler para indicarle
 el status error y el resultado. Si no hay errores el handler pondrá en ejecución el próximo de la cola.
 Para demostrar esto la siguiente aplicación mostrará el título de artículos y la url de un RSS.
+
+Antes de ejecutar random_story.js instalar los modulos request y htmlparser
+npm install request
+npm install htmlparser
