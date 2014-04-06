@@ -1,0 +1,8 @@
+Random Story es el ejemplo de flow-control serial para tareas asincrónicas.
+Para poder ejecutar un número de tareas asincrónicas en secuencia usando serial flow control lo primero que necesitamos
+es un array donde poner esas tareas en el orden en que se desean ejecutar.
+El array tiene por cometido ser como una cola (queue), al finalizar una tarea extraer la próxima tarea de la secuencia
+del array.
+Cada tarea es una funcion. Cuando la tarea se completa la tarea hace una llamada a la función handler para indicarle
+el status error y el resultado. Si no hay errores el handler pondrá en ejecución el próximo de la cola.
+Para demostrar esto la siguiente aplicación mostrará el título de artículos y la url de un RSS.
