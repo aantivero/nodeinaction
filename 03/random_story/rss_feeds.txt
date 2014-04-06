@@ -1,0 +1,4 @@
+http://www.clarin.com/rss/politica/
+http://www.clarin.com/rss/deportes/
+http://contenidos.lanacion.com.ar/herramientas/rss/origen=2
+http://contenidos.lanacion.com.ar/herramientas/rss/categoria_id=6373
