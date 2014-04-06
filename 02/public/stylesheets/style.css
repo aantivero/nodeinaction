@@ -1,0 +1,66 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 25-mar-2014, 23:09:27
+    Author     : alex
+*/
+body {
+    padding: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+    color: #00B7FF;
+}
+
+/*Application will be 800 pixels wide and horizontally centered */
+#content {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*CSS rule for area in which current room name is displayed */
+#room {
+    background-color: #ddd;
+    margin-bottom: 1em;
+}
+/*Message display area will be 690 pixels wide and 300 pixels high */
+/*Allows div in which messages are displayed to scroll when it's filled up with 
+content */
+#messages {
+    width: 690px;
+    height: 300px;
+    overflow: auto;
+    background-color: #eee;
+    margin-bottom: 1em;
+    margin-right: 10px;
+}
+
+#room-list {
+    float: right;
+    width: 100px;
+    height: 300px;
+    overflow: auto;
+}
+
+#room-list div {
+    border-bottom: 1px solid #eee;
+}
+
+#room-list div:hover {
+    background-color: #ddd;
+}
+
+#send-message {
+    width: 700px;
+    margin-bottom: 1em;
+    margin-right: 1em;
+}
+
+#help {
+    font: 10px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
