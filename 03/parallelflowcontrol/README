@@ -1,0 +1,7 @@
+Implementar flow control en paralelo.
+Para ejecutar un número de tareas de manera asincrónica en paralelo necesitamos nuevamente de un array, pero en este caso no es importante el orden de ejecución.
+Cada tarea llama a una funcion handler que incrementará el numero de tareas completadas.
+Cuando todas las tareas finalizan la función handler realizará alguna lógica subsecuente.
+
+Para ejemplificar esto el siguiente ejemplo lee el contenido de archivos de texto y cuenta la cantidad de palabras recurrentes.
+La lectura del contenido de los archivos se realiza utilizando una función asincrónica, la lectura de archivos se realiza en forma paralela.
