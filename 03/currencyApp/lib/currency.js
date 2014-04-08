@@ -6,8 +6,8 @@ function roundTwoDecimals(amount) {
 
 exports.canadianToUS = function(canadian) {
 	return roundTwoDecimals(canadian * canadianDollar);
-}
+};
 
 exports.USToCanadian = function(us) {
 	return roundTwoDecimals(us / canadianDollar);
-}
+};

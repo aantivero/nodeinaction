@@ -11,7 +11,7 @@ channel.subscriptions = {};
 channel.on('join', function(id, client) {
 	//mensaje bienvenida
 	var msg = "Bienvenido\n" 
-			+ 'usuarios en línea:' + this.listeners('broadcast').length;
+			+ 'usuarios en lÃ­nea:' + this.listeners('broadcast').length;
 	client.write(msg + '\n');
 	this.clients[id] = client;
 	this.subscriptions[id] = function(senderId, message) {
